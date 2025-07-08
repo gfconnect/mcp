@@ -45,7 +45,9 @@
 
 我们支持两种接入方式：stdio 和 sse，满足不同场景的使用需求。
 
-#### stdio 方式
+### stdio
+
+> ⚠️ 本方式已弃用，请使用 sse 方式接入。
 
 ```json
 {
@@ -69,7 +71,7 @@
   "mcpServers": {
     "gf_mcp": {
       "type": "sse",
-      "url": "https://cloud1-3gr3bpci71d1de86.api.tcloudbasegateway.com/v1/cloudrun/gf-<service>/messages",
+      "url": "https://mcp-api.gf.com.cn/server/mcp/<service>/sse",
       "headers": {
         "Authorization": "Bearer <YOUR_TOKEN>"
       }

@@ -10,6 +10,8 @@
 
 ### stdio
 
+> ⚠️ 本方式已弃用，请使用 sse 方式接入。
+
 ```json
 {
   "mcpServers": {
@@ -32,9 +34,9 @@
     "mcpServers": {
         "gl_lhb": {
             "type": "sse",
-            "url": "https://cloud1-3gr3bpci71d1de86.api.tcloudbasegateway.com/v1/cloudrun/gf-lhb/messages",
+            "url": "https://mcp-api.gf.com.cn/server/mcp/lhb/sse",
             "headers": {
-              "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjlkMWRjMzFlLWI0ZDAtNDQ4Yi1hNzZmLWIwY2M2M2Q4MTQ5OCJ9.eyJhdWQiOiJjbG91ZDEtM2dyM2JwY2k3MWQxZGU4NiIsImV4cCI6MjUzNDAyMzAwNzk5LCJpYXQiOjE3NDc4ODc3ODcsImF0X2hhc2giOiJkbFBtWFRiRUVmQzg4VkpVQUdrb2xRIiwicHJvamVjdF9pZCI6ImNsb3VkMS0zZ3IzYnBjaTcxZDFkZTg2IiwibWV0YSI6eyJwbGF0Zm9ybSI6IkFwaUtleSJ9LCJ1c2VyX3R5cGUiOiIifQ.ZL3o2YWWxu2SozaAam35vyKOYEUqPgGfOzNAa2Ix3aW1BGfTbzh4gJHLuaAaqpRDTHdBamxw64RfYm6vGHXQ6r1AItI379ACrWs0Sxg6v-S1AtP6EnLtE9WmdJqS3xCMUvn1jQQwkBpoKxgiYalxb_koy66F0vMQLpAX3CLiKqWYX4hjMTRakC3n9PmIviA_fW5G8iOCRrG9Kjs8L7xQvFA52W91lhqOrUL_paFT7YEnLV4w5zmQz111e-ucAu4UfciVLmCWOqboeyht1Leh_AdVJ84Mlny4cbRi-K7nCvfuMq9ID2Wv1fWn0KFkhagnHfa9HRtCfJt-gxp_sVoWgA"
+              "Authorization": "Bearer 2077f748-5b37-41ee-9d73-db5728639432"
             }
         }
     }
