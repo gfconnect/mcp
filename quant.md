@@ -15,7 +15,7 @@
 ```json
 {
   "mcpServers": {
-    "gf_lhb": {
+    "gf_quant": {
       "command": "npx",
       "args": ["-y" "@gfsecurities/mcp-base@1.0.3", "--appId=quant", "--sync=false"],
       "env": {
@@ -32,7 +32,7 @@
 ```json
 {
     "mcpServers": {
-        "gl_lhb": {
+        "gf_quant": {
             "type": "sse",
             "url": "https://mcp-api.gf.com.cn/server/mcp/quant/sse",
             "headers": {

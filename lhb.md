@@ -32,7 +32,7 @@
 ```json
 {
     "mcpServers": {
-        "gl_lhb": {
+        "gf_lhb": {
             "type": "sse",
             "url": "https://mcp-api.gf.com.cn/server/mcp/lhb/sse",
             "headers": {
