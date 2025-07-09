@@ -112,6 +112,8 @@
 
 - [📋 龙虎榜分析完整文档](./lhb.md) - 详细的API文档和使用示例
 - [📊 财务分析完整文档](./quant.md) - 财务对比工具的完整指南
+- [⭐ 热门ETF榜单完整文档](./etf_rank.md) - ETF榜单API参数与用法说明
+- [📈 沪深指数估值分析完整文档](./windmill.md) - 指数估值分析API参数与用法说明
 - [🔗 MCP协议标准](https://github.com/modelcontextprotocol/specification) - 了解MCP协议的技术规范
 
 ## 💡 技术支持
