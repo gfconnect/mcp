@@ -39,7 +39,7 @@
             "type": "sse",
             "url": "https://mcp-api.gf.com.cn/server/mcp/lhb/sse",
             "headers": {
-              "Authorization": "Bearer 2077f748-5b37-41ee-9d73-db5728639432"
+              "Authorization": "Bearer <YOUR_TOKEN>"
             }
         }
     }
