@@ -64,6 +64,7 @@
 ### stdio
 
 > ⚠️ 本方式已弃用，请使用 sse 方式接入。
+<details>
 
 ```json
 {
@@ -73,12 +74,14 @@
       "args": ["-y", "@gfsecurities/mcp-base@1.0.3", "--appId=<service_id>", "--sync=false"],
       "env": {
         "CONFIG_LOGGER": "silent",
-        "GF_MCP_AUTH_KEY": "coze"
+        "GF_MCP_AUTH_KEY": "<auth_key>"
       }
     }
   }
 }
 ```
+
+</details>
 
 #### sse 方式
 
@@ -100,6 +103,8 @@
 
 - 🔥 **龙虎榜分析**: 将 `<service_id>` 替换为 `lhb`
 - 📊 **财务分析**: 将 `<service_id>` 替换为 `quant`
+- ⭐ **热门ETF榜单**: 将 `<service_id>` 替换为 `etf_rank`
+- 📈 **沪深指数估值分析**: 将 `<service_id>` 替换为 `windmill`
 
 ## 🎯 应用场景
 

@@ -11,6 +11,7 @@
 ### stdio
 
 > ⚠️ 本方式已弃用，请使用 sse 方式接入。
+<details>
 
 ```json
 {
@@ -20,12 +21,14 @@
       "args": ["-y" "@gfsecurities/mcp-base@1.0.3", "--appId=lhb", "--sync=false"],
       "env": {
         "CONFIG_LOGGER": "silent",
-        "GF_MCP_AUTH_KEY": "coze"
+        "GF_MCP_AUTH_KEY": "<auth_key>"
       }
     }
   }
 }
 ```
+
+</details>
 
 ### sse
 
