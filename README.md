@@ -99,6 +99,8 @@
 }
 ```
 
+token 获取方式：请[登录广发通](https://hd.gf.com.cn/bortal/mcp-login.html?channel=volcengine)获取，首次登录将自动完成注册。
+
 ### 服务选择
 
 - 🔥 **龙虎榜分析**: 将 `<service_id>` 替换为 `lhb`
