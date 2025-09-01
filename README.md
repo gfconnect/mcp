@@ -59,11 +59,11 @@
 
 ### 快速配置
 
-我们支持两种接入方式：stdio 和 sse，满足不同场景的使用需求。
+我们目前支持方式：streamable-http。
 
 ### stdio
 
-> ⚠️ 本方式已弃用，请使用 sse 方式接入。
+> ⚠️ 本方式已弃用，请使用 streamable-http 方式接入。
 <details>
 
 ```json
@@ -83,14 +83,14 @@
 
 </details>
 
-#### sse 方式
+#### streamable-http 方式
 
 ```json
 {
   "mcpServers": {
     "gf_mcp": {
-      "type": "sse",
-      "url": "https://mcp-api.gf.com.cn/server/mcp/<service>/sse",
+      "type": "streamable-http",
+      "url": "https://mcp-api.gf.com.cn/server/mcp/<service>/mcp",
       "headers": {
         "Authorization": "Bearer <YOUR_TOKEN>"
       }
@@ -103,10 +103,10 @@ token 获取方式：请[登录广发通](https://hd.gf.com.cn/bortal/mcp-login.
 
 ### 服务选择
 
-- 🔥 **龙虎榜分析**: 将 `<service_id>` 替换为 `lhb`
-- 📊 **财务分析**: 将 `<service_id>` 替换为 `quant`
-- ⭐ **热门ETF榜单**: 将 `<service_id>` 替换为 `etf_rank`
-- 📈 **沪深指数估值分析**: 将 `<service_id>` 替换为 `windmill`
+- 🔥 **龙虎榜分析**: 将 `<service>` 替换为 `lhb`
+- 📊 **财务分析**: 将 `<service>` 替换为 `quant`
+- ⭐ **热门ETF榜单**: 将 `<service>` 替换为 `etf_rank`
+- 📈 **沪深指数估值分析**: 将 `<service>` 替换为 `windmill`
 
 ## 🎯 应用场景
 

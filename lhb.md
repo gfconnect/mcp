@@ -10,7 +10,7 @@
 
 ### stdio
 
-> ⚠️ 本方式已弃用，请使用 sse 方式接入。
+> ⚠️ 本方式已弃用，请使用 streamable-http 方式接入。
 <details>
 
 ```json
@@ -30,16 +30,16 @@
 
 </details>
 
-### sse
+### streamable-http
 
 ```json
 {
     "mcpServers": {
         "gf_lhb": {
-            "type": "sse",
-            "url": "https://mcp-api.gf.com.cn/server/mcp/lhb/sse",
+            "type": "streamable-http",
+            "url": "https://mcp-api.gf.com.cn/server/mcp/lhb/mcp",
             "headers": {
-              "Authorization": "Bearer 2077f748-5b37-41ee-9d73-db5728639432"
+              "Authorization": "Bearer <YOUR_TOKEN>"
             }
         }
     }

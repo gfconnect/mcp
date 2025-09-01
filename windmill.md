@@ -22,16 +22,16 @@
 }
 ```
 
-### sse
+### streamable-http
 
 ```json
 {
     "mcpServers": {
         "gf_windmill": {
-            "type": "sse",
-            "url": "https://mcp-api.gf.com.cn/server/mcp/windmill/sse",
+            "type": "streamable-http",
+            "url": "https://mcp-api.gf.com.cn/server/mcp/windmill/mcp",
             "headers": {
-              "Authorization": "Bearer 2077f748-5b37-41ee-9d73-db5728639432"
+              "Authorization": "Bearer <YOUR_TOKEN>"
             }
         }
     }
